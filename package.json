@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi generate",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.16.1",
+    "@iconify/json": "^2.1.7",
+    "@nuxt/bridge-edge": "latest",
+    "@nuxt/kit-edge": "latest",
+    "@unocss/nuxt": "^0.26.3",
+    "@vue/runtime-dom": "^3.2.31",
+    "@vueuse/core": "^7.6.2",
+    "eslint": "^8.10.0",
+    "nuxi-edge": "latest",
+    "nuxt-edge": "latest",
+    "typescript": "4.5.5"
+  },
+  "pnpm": {
+    "overrides": {
+      "vue-demi": "0.12.0"
+    }
+  }
+}
